@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+  font-size: 62.5%;
+
+  /* Primary colors */
+  --clr-dark-cyan: hsl(185, 75%, 39%);
+  --clr-very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --clr-dark-grayish-blue: hsl(227, 10%, 46%);
+  /* Neutral color */
+  --clr-dark-gray: hsl(0, 0%, 59%);
+
+  /* Typography */
+  --ff-primary: 'Kumbh Sans', sans-serif;
+  --fs-primary: 1.8rem;
+
+  /* Breakpoints */
+  --breakpoint-mobile: 576px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template: 1fr min-content / 1fr;
+  min-height: 100vh;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-primary);
+  background-color: var(--clr-dark-cyan);
+}
+
+/* Layout */
+.main {
+  justify-self: center;
+  align-self: center;
+}
+.container {
+  margin-inline: 2rem;
+}
+
+/* Card */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 1.5rem;
+  margin-block: 2rem;
+  overflow: hidden;
+  width: 32.6rem;
+}
+
+.card-image {
+  background-image: url('../images/bg-pattern-card.svg');
+  width: 100%;
+  height: 14rem;
+}
+
+.card-profile {
+  position: relative;
+  top: calc((9.6rem / 2) * -1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: -2rem;
+}
+
+.profile-image {
+  border-radius: 50%;
+  border: 5px solid #fff;
+  width: 9.6rem;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.info-name {
+  font-size: var(--fs-primary);
+  font-weight: 700;
+}
+
+.info-name span {
+  font-weight: 400;
+  color: var(--clr-dark-grayish-blue);
+}
+
+.info-city {
+  color: var(--clr-dark-grayish-blue);
+  font-size: 1.4rem;
+}
+
+.card-stats {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  border-top: 1px solid hsla(0, 0%, 59%, 25%);
+  padding: 2.4rem;
+}
+
+.stats-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.item-metric {
+  font-weight: 700;
+}
+
+.item-title {
+  font-size: 1.1rem;
+  color: var(--clr-dark-grayish-blue);
+  letter-spacing: 1px;
+}
+
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
