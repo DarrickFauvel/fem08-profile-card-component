@@ -99,6 +99,7 @@ body {
   margin-block: 2rem;
   overflow: hidden;
   width: 32.6rem;
+  box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
 }
 
 .card-image {
