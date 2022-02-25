@@ -173,6 +173,7 @@ body {
 
 /* Footer */
 .attribution {
+  display: none;
   font-size: 11px;
   text-align: center;
   margin-block: 2em;
