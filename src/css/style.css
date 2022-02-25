@@ -29,9 +29,10 @@
 body {
   display: grid;
   grid-template: 1fr min-content / 1fr;
+
   min-height: 100vh;
   font-family: var(--ff-primary);
-  font-size: var(--fs-primary);
+  /* font-size: var(--fs-primary); */
   background-color: var(--clr-dark-cyan);
   background: url('../images/bg-pattern-top.svg') no-repeat top -300px left -420px /
       622px,
@@ -129,6 +130,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
+  font-size: 1.8rem;
 }
 
 .info-name {
@@ -162,13 +164,14 @@ body {
 }
 
 .item-metric {
+  font-size: 1.8rem;
   font-weight: 700;
 }
 
 .item-title {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--clr-dark-grayish-blue);
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
 }
 
 /* Footer */
