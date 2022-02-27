@@ -43,11 +43,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### What I learned
 
-The positioning of the two circles in the background was more challenging than I thought.
-
-### Continued development
-
-Instead of treating the circles as background images, I think I will try to position them as regular images.
+The positioning of the two circles in the background was more challenging than I thought. I used a few media queries at first which were not ideal. But, fellow Frontend Mentor [@hcxweb](https://www.frontendmentor.io/profile/hcxweb) shared a better solution with me of using background positioning with vw & vh units.
 
 ### Useful resources
 
