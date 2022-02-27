@@ -75,6 +75,19 @@ body {
   overflow: hidden;
   width: 32.6rem;
   box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+
+  animation: slideup 0.75s ease-out;
+}
+
+@keyframes slideup {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .card-image {
