@@ -11,9 +11,9 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -54,3 +54,8 @@ The positioning of the two circles in the background was more challenging than I
 
 - Website - [Darrick Fauvel](https://www.darrickfauvel.com)
 - Frontend Mentor - [@DarrickFauvel](https://www.frontendmentor.io/profile/DarrickFauvel)
+
+## Acknowledgments
+
+- [@hcxweb](https://www.frontendmentor.io/profile/hcxweb) for their background positioning solution
+- [@Crazimonk](https://www.frontendmentor.io/profile/Crazimonk) for noting my missing font color
