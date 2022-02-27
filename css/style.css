@@ -152,7 +152,7 @@ body {
   font-weight: 700;
 }
 
-.info-name span {
+.info-age {
   font-weight: 400;
   color: var(--clr-dark-grayish-blue);
 }
