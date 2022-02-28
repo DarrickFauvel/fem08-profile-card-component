@@ -39,7 +39,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - Semantic HTML5 markup
 - CSS custom properties
 - CSS Grid
-- [Vite](https://vitejs.dev/)
+- [Vite](https://vitejs.dev/) - Superfast bundling tool
 
 ### What I learned
 
