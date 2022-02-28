@@ -37,8 +37,17 @@ body {
   background-color: var(--clr-dark-cyan);
   background-image: url('../images/bg-pattern-top.svg'),
     url('../images/bg-pattern-bottom.svg');
-  background-position: right 50vw bottom 40vh, left 50vw top 50vh;
   background-repeat: no-repeat;
+  animation: circles 1s ease-out forwards;
+}
+
+@keyframes circles {
+  0% {
+    background-position: right 60vw bottom 50vh, left 60vw top 50vh;
+  }
+  100% {
+    background-position: right 50vw bottom 40vh, left 50vw top 40vh;
+  }
 }
 
 .visually-hidden {
@@ -166,7 +175,6 @@ body {
   font-size: 1.1rem;
   margin-block: 2em;
   text-align: center;
-  margin-block: 2em;
 }
 .attribution a {
   color: var(--clr-white);
